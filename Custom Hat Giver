@@ -41,11 +41,11 @@ function Rbx9(Rbx6, Rbx4)
                 Rbx1(Rbx4, Rbx2)
             end
         else
-            local Rbx5 = e:FindFirstChild("Head") -- replace 0 with body part name example hat is placed on head
+            local Rbx5 = e:FindFirstChild("Cool") -- replace Cool with body part name example hat is placed on head
             if Rbx5 then
                 local Rbx2 = CFrame.new(0, 0, 0)
                 local Rbx4 = Rbx4.AttachmentPoint
-                Rbx3("HeadWeld", Rbx5, Rbx5, Rbx7, Rbx2, Rbx4) -- replace 0 with body part name example hat is placed on head
+                Rbx3("CoolWeld", Rbx5, Rbx5, Rbx7, Rbx2, Rbx4) -- replace Cool with body part name example hat is placed on head
             end                                                   -- r15: Head UpperTorso LowerTorso RightUpperArm RightLowerArm RightHand LeftUpperArm LeftLowerArm LeftHand RightUpperLeg RightLowerLeg RightFoot LeftUpperLeg LeftLowerLeg LeftFoot r6: Head Torso Right Arm Left Arm Right Leg Left Leg
         end
     end
