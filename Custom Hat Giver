@@ -50,6 +50,6 @@ function Rbx9(Rbx6, Rbx4)
         end
     end
 end
-local Rbx4 = 48545806 -- replace this with id of accessory
+local Rbx4 = 0 -- replace this with id of accessory
 local Rbx4 = game:GetObjects("rbxassetid://" .. tostring(Rbx4))[1]
 Rbx9(game.Players.LocalPlayer.Character, Rbx4)
